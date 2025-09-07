@@ -24,11 +24,14 @@ class $AssetsImagesGen {
 class $AssetsSvgGen {
   const $AssetsSvgGen();
 
+  /// File path: assets/svg/QR Code-pana.svg
+  String get qRCodePana => 'assets/svg/QR Code-pana.svg';
+
   /// File path: assets/svg/product.svg
   String get product => 'assets/svg/product.svg';
 
   /// List of all assets
-  List<String> get values => [product];
+  List<String> get values => [qRCodePana, product];
 }
 
 class Assets {
